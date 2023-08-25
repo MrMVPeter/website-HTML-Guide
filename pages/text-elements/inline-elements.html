@@ -1,0 +1,762 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Inline Elements - Text Elements - HTML Guide</title>
+    <link rel="stylesheet" type="text/CSS" href="../../styles/global.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Guide to HTML Inline Elements</h1>
+    </header>
+
+    <nav>
+      <ul>
+        <li><a href="../../index.html">Home</a></li>
+        <li><a href="index.html">Text Elements</a></li>
+        <li><a href="block-elements.html">Block Elements</a></li>
+        <li><a href="text-level-semantics.html">Text-Level Semantics</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <h2>Inline Elements</h2>
+      <p>
+        This section covers various aspects of HTML inline elements. Each
+        element type is described along with its tags, a sample script, utility,
+        and best practices.
+      </p>
+
+      <!-- Span Element -->
+      <section>
+        <h3>Span Element</h3>
+        <p>
+          <strong>Description:</strong> The <code>span</code> element is a
+          generic inline container for phrasing content.
+        </p>
+        <p><strong>Example:</strong></p>
+        <pre><code>&lt;span&gt;This is a span element.&lt;/span&gt;</code></pre>
+        <p><strong>Output:</strong> <span>This is a span element.</span></p>
+        <p>
+          <strong>Utility:</strong> Used for styling a specific piece of text
+          within a block-level element without changing its semantics.
+        </p>
+        <p>
+          <strong>Best Practices:</strong> Use sparingly and only when no other
+          semantic inline elements are applicable.
+        </p>
+        <hr />
+      </section>
+
+      <!-- Em Element -->
+      <section>
+        <h3>Em Element</h3>
+        <p>
+          <strong>Description:</strong> The <code>em</code> element marks text
+          that has stress emphasis.
+        </p>
+        <p><strong>Example:</strong></p>
+        <pre><code>&lt;em&gt;This is emphasized text.&lt;/em&gt;</code></pre>
+        <p><strong>Output:</strong> <em>This is emphasized text.</em></p>
+        <p>
+          <strong>Utility:</strong> Used to highlight text for emphasis within
+          the content.
+        </p>
+        <p>
+          <strong>Best Practices:</strong> Use for short spans of text that
+          require emphasis to change the meaning of the sentence.
+        </p>
+        <hr />
+      </section>
+
+      <!-- Strong Element -->
+      <section>
+        <h3>Strong Element</h3>
+        <p>
+          <strong>Description:</strong> The <code>strong</code> element
+          indicates strong importance for its contents.
+        </p>
+        <p><strong>Example:</strong></p>
+        <pre><code>&lt;strong&gt;This is strong text.&lt;/strong&gt;</code></pre>
+        <p><strong>Output:</strong> <strong>This is strong text.</strong></p>
+        <p>
+          <strong>Utility:</strong> Used to give strong importance to text
+          within a document.
+        </p>
+        <p>
+          <strong>Best Practices:</strong> Use sparingly and only for text that
+          is of strong importance.
+        </p>
+        <hr />
+      </section>
+
+      <!-- A Element -->
+      <section>
+        <h3><q>A</q> Element</h3>
+        <p>
+          <strong>Description:</strong> The <code>a</code> element creates
+          hyperlinks to other web pages.
+        </p>
+        <p><strong>Example:</strong></p>
+        <pre><code>&lt;a href="https://www.example.com"&gt;Visit Example.com&lt;/a&gt;</code></pre>
+        <p>
+          <strong>Output:</strong>
+          <a href="https://www.example.com">Visit Example.com</a>
+        </p>
+        <p>
+          <strong>Utility:</strong> Used for linking to other web pages, files,
+          or locations within the same page.
+        </p>
+        <p>
+          <strong>Best Practices:</strong> Always provide a meaningful `href`
+          attribute and consider using `target="_blank"` for external links.
+        </p>
+        <hr />
+      </section>
+
+      <!-- Sub Element -->
+      <section>
+        <h3>Sub Element</h3>
+        <p>
+          <strong>Description:</strong> The <code>sub</code> element defines
+          subscript text.
+        </p>
+        <p><strong>Example:</strong></p>
+        <pre><code>H&lt;sub&gt;2&lt;/sub&gt;O</code></pre>
+        <p><strong>Output:</strong> H<sub>2</sub>O</p>
+        <p>
+          <strong>Utility:</strong> Commonly used in scientific notations,
+          chemical formulas, and footnotes.
+        </p>
+        <p>
+          <strong>Best Practices:</strong> Use only for text that should be
+          visually subscripted.
+        </p>
+        <hr />
+      </section>
+
+      <!-- Sup Element -->
+      <section>
+        <h3>Sup Element</h3>
+        <p>
+          <strong>Description:</strong> The <code>sup</code> element defines
+          superscript text.
+        </p>
+        <p><strong>Example:</strong></p>
+        <pre><code>E = mc&lt;sup&gt;2&lt;/sup&gt;</code></pre>
+        <p><strong>Output:</strong> E = mc<sup>2</sup></p>
+        <p>
+          <strong>Utility:</strong> Commonly used in mathematical expressions,
+          footnotes, and references.
+        </p>
+        <p>
+          <strong>Best Practices:</strong> Use only for text that should be
+          visually superscripted.
+        </p>
+        <hr />
+      </section>
+
+      <!-- Abbr Element -->
+      <section>
+        <h3>Abbr Element</h3>
+        <p>
+          <strong>Description:</strong> The <code>abbr</code> element represents
+          an abbreviation or acronym.
+        </p>
+        <p><strong>Example:</strong></p>
+        <pre><code>&lt;abbr title="HyperText Markup Language"&gt;HTML&lt;/abbr&gt;</code></pre>
+        <p>
+          <strong>Output:</strong>
+          <abbr title="HyperText Markup Language">HTML</abbr>
+        </p>
+        <p>
+          <strong>Utility:</strong> Used to provide a title or explanation for
+          an abbreviation.
+        </p>
+        <p>
+          <strong>Best Practices:</strong> Always include the
+          <code>title</code> attribute to explain the abbreviation.
+        </p>
+        <hr />
+      </section>
+
+      <!-- Acronym Element (Deprecated) -->
+      <section>
+        <h3>Acronym Element (Deprecated)</h3>
+        <p>
+          <strong>Description:</strong> The <code>acronym</code> element was
+          used to define an acronym. It is now deprecated.
+        </p>
+        <p><strong>Example:</strong></p>
+        <pre><code>&lt;acronym title="As Soon As Possible"&gt;ASAP&lt;/acronym&gt;</code></pre>
+        <p>
+          <strong>Output:</strong>
+          <acronym title="As Soon As Possible">ASAP</acronym>
+        </p>
+        <p>
+          <strong>Utility:</strong> Deprecated. Use <code>abbr</code> instead.
+        </p>
+        <p>
+          <strong>Best Practices:</strong> Avoid using this element; it is
+          deprecated.
+        </p>
+        <hr />
+      </section>
+
+      <!-- B Element -->
+      <section>
+        <h3>B Element</h3>
+        <p>
+          <strong>Description:</strong> The <code>b</code> element is used to
+          draw attention to enclosed text without implying any added importance
+          or emphasis.
+        </p>
+        <p><strong>Example:</strong></p>
+        <pre><code>&lt;b&gt;Bold Text&lt;/b&gt;</code></pre>
+        <p><strong>Output:</strong> <b>Bold Text</b></p>
+        <p><strong>Utility:</strong> Used for stylistic offset of text only.</p>
+        <p>
+          <strong>Best Practices:</strong> Use <code>strong</code> for strong
+          emphasis and <code>em</code> for emphasis when needed.
+        </p>
+        <hr />
+      </section>
+
+      <!-- Bdo Element -->
+      <section>
+        <h3>Bdo Element</h3>
+        <p>
+          <strong>Description:</strong> The <code>bdo</code> element is used to
+          override the current text direction.
+        </p>
+        <p><strong>Example:</strong></p>
+        <pre><code>&lt;bdo dir="rtl"&gt;This text will go right to left.&lt;/bdo&gt;</code></pre>
+        <p>
+          <strong>Output:</strong>
+          <bdo dir="rtl">This text will go right to left.</bdo>
+        </p>
+        <p>
+          <strong>Utility:</strong> Used in multilingual documents where some
+          text needs to be displayed in a different direction.
+        </p>
+        <p>
+          <strong>Best Practices:</strong> Always specify the
+          <code>dir</code> attribute.
+        </p>
+        <hr />
+      </section>
+
+      <!-- Big Element (Deprecated) -->
+      <section>
+        <h3>Big Element (Deprecated)</h3>
+        <p>
+          <strong>Description:</strong> The <code>big</code> element was used to
+          make the text one size larger. It is now deprecated.
+        </p>
+        <p><strong>Example:</strong></p>
+        <pre><code>&lt;big&gt;This is big text.&lt;/big&gt;</code></pre>
+        <p><strong>Output:</strong> <big>This is big text.</big></p>
+        <p><strong>Utility:</strong> Deprecated. Use CSS for text sizing.</p>
+        <p>
+          <strong>Best Practices:</strong> Avoid using this element; it is
+          deprecated.
+        </p>
+        <hr />
+      </section>
+
+      <!-- Br Element -->
+      <section>
+        <h3>Br Element</h3>
+        <p>
+          <strong>Description:</strong> The <code>br</code> element produces a
+          line break in text.
+        </p>
+        <p><strong>Example:</strong></p>
+        <pre><code>Hello &lt;br&gt; World</code></pre>
+        <p>
+          <strong>Output:</strong> Hello <br />
+          World
+        </p>
+        <p>
+          <strong>Utility:</strong> Used to insert a line break within inline
+          elements.
+        </p>
+        <p>
+          <strong>Best Practices:</strong> Use sparingly and only when necessary
+          for content structure.
+        </p>
+        <hr />
+      </section>
+
+      <!-- Button Element -->
+      <section>
+        <h3>Button Element</h3>
+        <p>
+          <strong>Description:</strong> The <code>button</code> element
+          represents a clickable button.
+        </p>
+        <p><strong>Example:</strong></p>
+        <pre><code>&lt;button&gt;Click Me&lt;/button&gt;</code></pre>
+        <p><strong>Output:</strong> <button>Click Me</button></p>
+        <p>
+          <strong>Utility:</strong> Used to create buttons for user interaction.
+        </p>
+        <p>
+          <strong>Best Practices:</strong> Always specify the
+          <code>type</code> attribute to define the button's function.
+        </p>
+        <hr />
+      </section>
+
+      <!-- Cite Element -->
+      <section>
+        <h3>Cite Element</h3>
+        <p>
+          <strong>Description:</strong> The <code>cite</code> element is used to
+          describe a reference to a cited creative work.
+        </p>
+        <p><strong>Example:</strong></p>
+        <pre><code>&lt;cite&gt;The Catcher in the Rye&lt;/cite&gt;</code></pre>
+        <p><strong>Output:</strong> <cite>The Catcher in the Rye</cite></p>
+        <p><strong>Utility:</strong> Used to indicate the title of a work.</p>
+        <p>
+          <strong>Best Practices:</strong> Use only for the title of a work, not
+          for other types of citations.
+        </p>
+        <hr />
+      </section>
+
+      <!-- Code Element -->
+      <section>
+        <h3>Code Element</h3>
+        <p>
+          <strong>Description:</strong> The <code>code</code> element is used to
+          display one or more lines of computer code.
+        </p>
+        <p><strong>Example:</strong></p>
+        <pre><code>&lt;code&gt;console.log("Hello, World!");&lt;/code&gt;</code></pre>
+        <p>
+          <strong>Output:</strong> <code>console.log("Hello, World!");</code>
+        </p>
+        <p>
+          <strong>Utility:</strong> Used for inline code snippets or code
+          blocks.
+        </p>
+        <p>
+          <strong>Best Practices:</strong> Use for displaying code only, not for
+          styling text.
+        </p>
+        <hr />
+      </section>
+
+      <!-- Dfn Element -->
+      <section>
+        <h3>Dfn Element</h3>
+        <p>
+          <strong>Description:</strong> The <code>dfn</code> element is used to
+          indicate the term being defined within the context of a definition
+          phrase or sentence.
+        </p>
+        <p><strong>Example:</strong></p>
+        <pre><code>A <em>&lt;dfn&gt;computer&lt;/dfn&gt;</em> is a machine that can be programmed.</code></pre>
+        <p>
+          <strong>Output:</strong> A <dfn>computer</dfn> is a machine that can
+          be programmed.
+        </p>
+        <p>
+          <strong>Utility:</strong> Used to highlight the term being defined.
+        </p>
+        <p>
+          <strong>Best Practices:</strong> Use only for the specific term being
+          defined.
+        </p>
+        <hr />
+      </section>
+
+      <!-- I Element -->
+      <section>
+        <h3>I Element</h3>
+        <p>
+          <strong>Description:</strong> The <code>i</code> element represents a
+          range of text that is set off from the normal text for some reason,
+          such as idiomatic text, technical terms, etc.
+        </p>
+        <p><strong>Example:</strong></p>
+        <pre><code>The word &lt;i&gt;et cetera&lt;/i&gt; is abbreviated as etc.</code></pre>
+        <p>
+          <strong>Output:</strong> The word <i>et cetera</i> is abbreviated as
+          etc.
+        </p>
+        <p>
+          <strong>Utility:</strong> Used for text that needs to be offset but
+          not strongly emphasized.
+        </p>
+        <p>
+          <strong>Best Practices:</strong> Use for phrases or terms that are not
+          strongly emphasized.
+        </p>
+        <hr />
+      </section>
+
+      <!-- Img Element -->
+      <section>
+        <h3>Img Element</h3>
+        <p>
+          <strong>Description:</strong> The <code>img</code> element embeds an
+          image into the document.
+        </p>
+        <p><strong>Example:</strong></p>
+        <pre><code>&lt;img src="image.jpg" alt="Description"&gt;</code></pre>
+        <p><strong>Output:</strong> (An image would be displayed here)</p>
+        <p><strong>Utility:</strong> Used to embed images in HTML documents.</p>
+        <p>
+          <strong>Best Practices:</strong> Always include an
+          <code>alt</code> attribute for accessibility.
+        </p>
+        <hr />
+      </section>
+
+      <!-- Input Element -->
+      <section>
+        <h3>Input Element</h3>
+        <p>
+          <strong>Description:</strong> The <code>input</code> element is used
+          to gather user input in a form.
+        </p>
+        <p><strong>Example:</strong></p>
+        <pre><code>&lt;input type="text" name="username" value="Place Holder"&gt;</code></pre>
+        <p>
+          <strong>Output:</strong>
+          <input type="text" name="username" value="Place Holder" />
+        </p>
+        <p>
+          <strong>Utility:</strong> Used in forms to collect different types of
+          user input.
+        </p>
+        <p>
+          <strong>Best Practices:</strong> Always specify the
+          <code>type</code> and <code>name</code> attributes.
+        </p>
+        <hr />
+      </section>
+
+      <!-- Kbd Element -->
+      <section>
+        <h3>Kbd Element</h3>
+        <p>
+          <strong>Description:</strong> The <code>kbd</code> element represents
+          user input, typically keyboard input.
+        </p>
+        <p><strong>Example:</strong></p>
+        <pre><code>Press &lt;kbd&gt;Ctrl&lt;/kbd&gt; + &lt;kbd&gt;C&lt;/kbd&gt; to copy.</code></pre>
+        <p>
+          <strong>Output:</strong> Press <kbd>Ctrl</kbd> + <kbd>C</kbd> to copy.
+        </p>
+        <p>
+          <strong>Utility:</strong> Used to indicate keys or commands to be
+          entered by the user.
+        </p>
+        <p>
+          <strong>Best Practices:</strong> Use for keyboard keys, button names,
+          or other user input.
+        </p>
+        <hr />
+      </section>
+
+      <!-- Label Element -->
+      <section>
+        <h3>Label Element</h3>
+        <p>
+          <strong>Description:</strong> The <code>label</code> element
+          represents a caption for an item in a user interface, typically form
+          elements.
+        </p>
+        <p><strong>Example:</strong></p>
+        <pre><code>&lt;label for="username"&gt;Username:&lt;/label&gt; &lt;input type="text" id="username"&gt;</code></pre>
+        <p>
+          <strong>Output:</strong> (A label "Username:" associated with a text
+          input field would be displayed here)
+        </p>
+        <p>
+          <strong>Utility:</strong> Used to improve form accessibility and user
+          experience.
+        </p>
+        <p>
+          <strong>Best Practices:</strong> Always use the
+          <code>for</code> attribute to associate the label with a specific form
+          element.
+        </p>
+        <hr />
+      </section>
+
+      <!-- Map Element -->
+      <section>
+        <h3>Map Element</h3>
+        <p>
+          <strong>Description:</strong> The <code>map</code> element is used
+          with <code>area</code> elements to define clickable areas within an
+          image map.
+        </p>
+        <p><strong>Example:</strong></p>
+        <pre><code>&lt;map name="exampleMap"&gt;&lt;area shape="rect" coords="0,0,50,50" href="#"&gt;&lt;/map&gt;</code></pre>
+        <p><strong>Output:</strong> (An image map would be displayed here)</p>
+        <p><strong>Utility:</strong> Used to create interactive image maps.</p>
+        <p>
+          <strong>Best Practices:</strong> Always provide alternative text for
+          each <code>area</code> element for accessibility.
+        </p>
+        <hr />
+      </section>
+
+      <!-- Object Element -->
+      <section>
+        <h3>Object Element</h3>
+        <p>
+          <strong>Description:</strong> The <code>object</code> element is used
+          to embed external resources like images, videos, or interactive
+          content.
+        </p>
+        <p><strong>Example:</strong></p>
+        <pre><code>&lt;object data="image.jpg" type="image/jpg"&gt;&lt;/object&gt;</code></pre>
+        <p>
+          <strong>Output:</strong> (An embedded object would be displayed here)
+        </p>
+        <p>
+          <strong>Utility:</strong> Used to embed various types of media and
+          interactive content.
+        </p>
+        <p>
+          <strong>Best Practices:</strong> Always specify the
+          <code>type</code> attribute and provide fallback content.
+        </p>
+        <hr />
+      </section>
+
+      <!-- Output Element -->
+      <section>
+        <h3>Output Element</h3>
+        <p>
+          <strong>Description:</strong> The <code>output</code> element
+          represents the result of a calculation or user action.
+        </p>
+        <p><strong>Example:</strong></p>
+        <pre><code>&lt;output id="result"&gt;42&lt;/output&gt;</code></pre>
+        <p><strong>Output:</strong> <output id="result">42</output></p>
+        <p>
+          <strong>Utility:</strong> Used to display the results of scripts or
+          calculations.
+        </p>
+        <p>
+          <strong>Best Practices:</strong> Use within forms or scripts where the
+          output needs to be dynamically updated.
+        </p>
+        <hr />
+      </section>
+
+      <!-- Q Element -->
+      <section>
+        <h3>Q Element</h3>
+        <p>
+          <strong>Description:</strong> The <code>q</code> element represents a
+          short inline quotation.
+        </p>
+        <p><strong>Example:</strong></p>
+        <pre><code>He said, &lt;q&gt;Hello, world!&lt;/q&gt;</code></pre>
+        <p><strong>Output:</strong> He said, <q>Hello, world!</q></p>
+        <p>
+          <strong>Utility:</strong> Used for short quotations that don't require
+          paragraph breaks.
+        </p>
+        <p>
+          <strong>Best Practices:</strong> Use for inline quotes and provide
+          citation if possible.
+        </p>
+        <hr />
+      </section>
+
+      <!-- Object Element -->
+      <section>
+        <h3>Object Element</h3>
+        <p>
+          <strong>Description:</strong> The <code>object</code> element is used
+          to embed external resources like images, videos, or interactive
+          content.
+        </p>
+        <p><strong>Example:</strong></p>
+        <pre><code>&lt;object data="image.jpg" type="image/jpg"&gt;&lt;/object&gt;</code></pre>
+        <p>
+          <strong>Output:</strong> (An embedded object would be displayed here)
+        </p>
+        <p>
+          <strong>Utility:</strong> Used to embed various types of media and
+          interactive content.
+        </p>
+        <p>
+          <strong>Best Practices:</strong> Always specify the
+          <code>type</code> attribute and provide fallback content.
+        </p>
+        <hr />
+      </section>
+
+      <!-- Output Element -->
+      <section>
+        <h3>Output Element</h3>
+        <p>
+          <strong>Description:</strong> The <code>output</code> element
+          represents the result of a calculation or user action.
+        </p>
+        <p><strong>Example:</strong></p>
+        <pre><code>&lt;output id="result"&gt;42&lt;/output&gt;</code></pre>
+        <p><strong>Output:</strong> <output id="result">42</output></p>
+        <p>
+          <strong>Utility:</strong> Used to display the results of scripts or
+          calculations.
+        </p>
+        <p>
+          <strong>Best Practices:</strong> Use within forms or scripts where the
+          output needs to be dynamically updated.
+        </p>
+        <hr />
+      </section>
+
+      <!-- Q Element -->
+      <section>
+        <h3>Q Element</h3>
+        <p>
+          <strong>Description:</strong> The <code>q</code> element represents a
+          short inline quotation.
+        </p>
+        <p><strong>Example:</strong></p>
+        <pre><code>He said, &lt;q&gt;Hello, world!&lt;/q&gt;</code></pre>
+        <p><strong>Output:</strong> He said, <q>Hello, world!</q></p>
+        <p>
+          <strong>Utility:</strong> Used for short quotations that don't require
+          paragraph breaks.
+        </p>
+        <p>
+          <strong>Best Practices:</strong> Use for inline quotes and provide
+          citation if possible.
+        </p>
+        <hr />
+      </section>
+
+      <!-- Small Element -->
+      <section>
+        <h3>Small Element</h3>
+        <p>
+          <strong>Description:</strong> The <code>small</code> element is used
+          to represent side comments or small print.
+        </p>
+        <p><strong>Example:</strong></p>
+        <pre><code>&lt;small&gt;Terms and conditions apply.&lt;/small&gt;</code></pre>
+        <p>
+          <strong>Output:</strong> <small>Terms and conditions apply.</small>
+        </p>
+        <p>
+          <strong>Utility:</strong> Used for disclaimers, caveats, legal
+          restrictions, or copyrights.
+        </p>
+        <p>
+          <strong>Best Practices:</strong> Use sparingly and only for text that
+          is secondary or less important.
+        </p>
+        <hr />
+      </section>
+
+      <!-- Textarea Element -->
+      <section>
+        <h3>Textarea Element</h3>
+        <p>
+          <strong>Description:</strong> The <code>textarea</code> element
+          represents a multiline text input field.
+        </p>
+        <p><strong>Example:</strong></p>
+        <pre><code>&lt;textarea rows="4" cols="50"&gt;Some example text&lt;/textarea&gt;</code></pre>
+        <p>
+          <strong>Output:</strong>
+          <textarea rows="4" cols="50">Some example text</textarea>
+        </p>
+        <p>
+          <strong>Utility:</strong> Used for collecting multiple lines of text
+          from the user.
+        </p>
+        <p>
+          <strong>Best Practices:</strong> Always include a
+          <code>label</code> for accessibility and specify <code>rows</code> and
+          <code>cols</code> attributes.
+        </p>
+        <hr />
+      </section>
+
+      <!-- Time Element -->
+      <section>
+        <h3>Time Element</h3>
+        <p>
+          <strong>Description:</strong> The <code>time</code> element represents
+          a specific time or a range of time.
+        </p>
+        <p><strong>Example:</strong></p>
+        <pre><code>&lt;time datetime="2023-08-24T19:20:00"&gt;7:20 PM on August 24, 2023&lt;/time&gt;</code></pre>
+        <p>
+          <strong>Output:</strong>
+          <time datetime="2023-08-24T19:20:00">7:20 PM on August 24, 2023</time>
+        </p>
+        <p>
+          <strong>Utility:</strong> Used to encode dates and times in a
+          machine-readable way.
+        </p>
+        <p>
+          <strong>Best Practices:</strong> Always use the
+          <code>datetime</code> attribute to provide a machine-readable
+          date/time.
+        </p>
+        <hr />
+      </section>
+
+      <!-- Tt Element -->
+      <section>
+        <h3>Tt Element (Depricated)</h3>
+        <p>
+          <strong>Description:</strong> The <code>tt</code> element is an
+          obsolete element that was used to represent teletype or monospaced
+          text.
+        </p>
+        <p><strong>Example:</strong></p>
+        <pre><code>&lt;tt&gt;Monospaced text&lt;/tt&gt;</code></pre>
+        <p><strong>Output:</strong> <code>Monospaced text</code></p>
+        <p>
+          <strong>Utility:</strong> Obsolete. Use <code>code</code> or CSS
+          styling for monospaced text.
+        </p>
+        <p>
+          <strong>Best Practices:</strong> Do not use. This element is obsolete.
+        </p>
+        <hr />
+      </section>
+
+      <!-- Var Element -->
+      <section>
+        <h3>Var Element</h3>
+        <p>
+          <strong>Description:</strong> The <code>var</code> element represents
+          the name of a variable in a mathematical expression or programming
+          context.
+        </p>
+        <p><strong>Example:</strong></p>
+        <pre><code>Let &lt;var&gt;x&lt;/var&gt; be the number of apples.</code></pre>
+        <p>
+          <strong>Output:</strong> Let <var>x</var> be the number of apples.
+        </p>
+        <p>
+          <strong>Utility:</strong> Used to indicate variables in both
+          programming and mathematical contexts.
+        </p>
+        <p><strong>Best Practices:</strong> Use only for variable names.</p>
+        <hr />
+      </section>
+    </main>
+
+    <footer>
+      <p>Peter Gilliam's HTML Guide - 2023</p>
+    </footer>
+  </body>
+</html>
